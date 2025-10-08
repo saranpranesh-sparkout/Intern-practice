@@ -31,23 +31,6 @@ console.log(num + 1);
 
 let val = 100;
 let strVal = String(val);  
-console.log(strVal + 1);  
-
-
-const cart = []; 
-let totalItems = 0; 
-
-function addToCart(product, quantity){
-    quantity = Number(quantity); 
-    cart.push({product, quantity});
-    totalItems += quantity;
-    console.log("Cart:", cart);
-    console.log("Total items:", totalItems);
-}
-
-addToCart("Shoes", "2");
-addToCart("Bag", "3");
-
-
+console.log(strVal + 1); 
 
 
