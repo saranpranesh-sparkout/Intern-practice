@@ -1,0 +1,10 @@
+const args = process.argv.slice(2); 
+console.log("Command line arguments:", args);
+const userName = process.env.USER_NAME || "Guest";
+const userAge = process.env.USER_AGE || "Unknown";
+console.log(`Environment Variables: Name = ${userName}, Age = ${userAge}`);
+console.log("\nNode.js global objects vs Browser:");
+console.log("Node.js __dirname:", __dirname);
+console.log("Node.js __filename:", __filename);
+console.log("Node.js global object:", global);
+console.log("In browser, you'd have 'window' and 'document' objects, which are not available in Node.js.");
