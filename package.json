@@ -1,0 +1,21 @@
+{
+  "name": "intern-practice",
+  "version": "1.0.0",
+  "description": "This repository contains beginner-to-intermediate practice programs to learn **JavaScript** and **Node.js** concepts, including variables, operators, arrays, objects, functions, loops, APIs, and asynchronous programming.\r  **program2.js**  Examples showing variable behavior and type coercion scenarios | Variables, let/const/var, data types, type coercion \r  **program3.js**  Calculator and Number Guessing Game | Operators (+, -, *, /, %, **), conditions, loops, user input validation \r  **program4.js**  Student Management System with CRUD operations | Arrays, objects, CRUD (Create, Read, Update, Delete), search, filter, array methods (map, filter, find) \r  **program5.js**  Utility Library for Mathematical Operations | Functions, regular vs arrow functions, modular code \r  **program6.js**  Weather Application fetching data from APIs | Promises, async/await, fetch API, error handling, loading states",
+  "main": "program2.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saranpranesh-sparkout/Intern-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saranpranesh-sparkout/Intern-practice/issues"
+  },
+  "homepage": "https://github.com/saranpranesh-sparkout/Intern-practice#readme"
+}
