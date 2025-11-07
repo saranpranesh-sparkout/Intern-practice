@@ -10,6 +10,7 @@ if(true){
     let y = 20; 
     console.log("Inside if with let:", y); 
 }
+
 console.log("Outside if with let:", y); 
 const z = 5;
 console.log("Constant z:", z);
